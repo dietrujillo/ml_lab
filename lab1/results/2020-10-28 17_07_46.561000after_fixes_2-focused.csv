@@ -1,0 +1,5 @@
+,model,best_params,r2,mae,rmse
+0,LinearRegression,{},0.8627715149157593,2255.9826608951657,3655.071703376594
+1,LassoRegression,"{'alpha': 0.3, 'max_iter': 3000, 'random_state': 1337}",0.8625601981711878,2260.092278971801,3657.844451705712
+2,RidgeRegression,"{'alpha': 0.3, 'max_iter': 3000, 'random_state': 1337}",0.861929597195412,2260.44207402144,3666.1737617172685
+3,ElasticNet,"{'alpha': 0.3, 'l1_ratio': 0.9, 'max_iter': 3000, 'random_state': 1337}",0.7436635375545666,3196.62868240258,4995.804374646128

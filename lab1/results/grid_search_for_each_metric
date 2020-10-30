@@ -1,0 +1,17 @@
+,model,params,metric,score
+0,LinearRegression,{},r2,0.2027486051051476
+1,LinearRegression,{},mae,4473.6270219215485
+2,LinearRegression,{},mse,39592761.15618802
+3,LassoRegression,"{'alpha': 0.01, 'positive': False, 'random_state': 1337}",r2,0.5125090169604954
+4,LassoRegression,"{'alpha': 0.01, 'positive': False, 'random_state': 1337}",mae,3641.2865394032387
+5,LassoRegression,"{'alpha': 0.05, 'positive': False, 'random_state': 1337}",mse,34221614.045494094
+6,RidgeRegression,"{'alpha': 1, 'random_state': 1337, 'solver': 'sag'}",r2,0.4586211287129524
+7,RidgeRegression,"{'alpha': 1, 'random_state': 1337, 'solver': 'sag'}",mae,3828.7235276893734
+8,RidgeRegression,"{'alpha': 1, 'random_state': 1337, 'solver': 'sag'}",mse,34680386.85504527
+9,ElasticNet,"{'alpha': 0.05, 'l1_ratio': 0.5, 'positive': False, 'random_state': 1337}",r2,0.523392617152999
+10,ElasticNet,"{'alpha': 0.01, 'l1_ratio': 1, 'positive': False, 'random_state': 1337}",mae,3641.2865394032387
+11,ElasticNet,"{'alpha': 0.05, 'l1_ratio': 0.75, 'positive': False, 'random_state': 1337}",mse,33554238.602770675
+12,LinearRegression,Same as mae,rmse,6292.277898836638
+13,LassoRegression,Same as mae,rmse,5849.924276902573
+14,RidgeRegression,Same as mae,rmse,5889.005591357955
+15,ElasticNet,Same as mae,rmse,5792.602058036671
