@@ -1,0 +1,2 @@
+,model,accuracy,f1,best_params
+0,SVM_NB,0.30766666666666664,0.2692985804245041,"{'C': 1, 'gamma': 10, 'max_iter': 2, 'random_state': 1337}"
